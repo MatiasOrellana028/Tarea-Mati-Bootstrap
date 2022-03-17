@@ -1,0 +1,24 @@
+.logo {
+    height: 90px;
+}
+.container-fluid{
+    background-color:mediumaquamarine;
+}
+header {
+    background-color: black;
+}
+.container {
+    margin-top: 100px;
+}
+footer {
+    margin-top: 150px;
+}
+    
+.texto__equipo{
+    align-self: center;
+}
+.pie{
+    display: flex;
+    justify-content: space-around;;
+}
+
