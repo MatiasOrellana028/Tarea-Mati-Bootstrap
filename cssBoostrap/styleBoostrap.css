@@ -22,3 +22,44 @@ footer {
     justify-content: space-around;;
 }
 
+.centro{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+@media (max-width:768px){
+    .centro{
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
+
+.card-img-top {
+    transition: all 2s;
+}
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    transition: all 1.5s ease-in;
+}
+.col:hover{
+    transform: translatex(10px);
+    background-color: black;
+    color: aliceblue;
+}
+.somos__centro{
+    margin-top: 20px;
+}
+.somos__imagen{
+    transition: all 3.5s ease-in;
+}
+.somos__imagen:hover{
+    transform: translateX(250px);
+}
+.contacto{
+    margin-top: 50px;
+}
